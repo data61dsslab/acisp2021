@@ -149,7 +149,7 @@
 	span {
 		display: inline-block;
 		padding: 0.5rem 0;
-		min-width: 60px;
+		// min-width: 60px;
 		
 		& > span {
 			display: block;
@@ -157,9 +157,9 @@
 		}
 	}
 	.number {
-		font-size: 2rem;
+		font-size: 1rem;
 		font-weight: 400;
-		color: $theme-text-color-primary;
+		// color: $theme-text-color-secondary;
 		
 	}
 	.unit {
@@ -210,6 +210,7 @@
 	
 	.card-title {
 		font-size: 1.125rem;
+		font-weight: bold;
 	}
 	
 	.card-img-top {
@@ -513,7 +514,7 @@
 	
 	.countdown-box span {
 		padding: 0.5rem 1.5rem;
-		min-width: 90px;
+		// min-width: 90px;
     }
 	 
 }
